@@ -27,7 +27,8 @@ import React, { useState } from 'react'
 // import ReadSpecificBlog from './Blog/ReadSpecificBlog'
 // import UpdateBlog from './Blog/UpdateBlog'
 // import LearnUseRef1 from './LearnUseRef/LearnUseRef1'
-import PassWordHideAndShow from './learn component/PassWordHideAndShow'
+// import PassWordHideAndShow from './learn component/PassWordHideAndShow'
+import Application from './Application'
 // import LearnUseState7 from './learnUseState/LearnUseState7'
 
 
@@ -97,8 +98,8 @@ const App = () => {
         </Routes> */}
         
 {/* <LearnUseRef1></LearnUseRef1> */}
-<PassWordHideAndShow></PassWordHideAndShow>
-
+{/* <PassWordHideAndShow></PassWordHideAndShow> */}
+<Application></Application>
     </div>
   )
 }

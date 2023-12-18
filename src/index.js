@@ -1,16 +1,20 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import App from './App';
+// import App from './App';
 import reportWebVitals from './reportWebVitals';
 import "./learnExternalcss.css"
 import { BrowserRouter } from 'react-router-dom';
+// import Project from './Project';
+import Application from './Application';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   // <React.StrictMode>
   <BrowserRouter>
-    <App></App>
+    {/* <App></App> */}
+    {/* <Project></Project> */}
+    <Application></Application>
     </BrowserRouter>
   // </React.StrictMode>
 );
